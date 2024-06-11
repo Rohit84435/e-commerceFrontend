@@ -102,3 +102,20 @@
   background: red;
   color: white;
 }
+
+@media screen and (max-width: 455px) {
+  .navbar {
+    width: 50%;
+    display: block;
+    /* position: sticky;
+    top: 0;
+    z-index: 1000; */
+  }
+  .navbar.active {
+    background: transparent;
+  }
+  .center {
+    width: 200%;
+    margin-bottom: 10px;
+  }
+}

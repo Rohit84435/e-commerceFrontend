@@ -25,3 +25,17 @@
   display: flex;
   gap: 30px;
 }
+
+@media screen and (max-width: 600px) {
+  .relatedproduct {
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .relatedproduct h1 {
+    font-size: 25px;
+  }
+  .relatedproducts-item {
+    display: flex;
+    flex-direction: column;
+  }
+}

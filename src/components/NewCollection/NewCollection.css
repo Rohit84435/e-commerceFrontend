@@ -28,3 +28,13 @@
   margin-top: 50px;
   gap: 30px;
 }
+
+@media screen and (max-width: 455px) {
+  .newCollection h1 {
+    font-size: 25px;
+  }
+  .collection {
+    display: flex;
+    flex-direction: column;
+  }
+}

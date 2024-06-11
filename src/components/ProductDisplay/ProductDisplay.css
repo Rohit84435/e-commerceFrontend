@@ -104,3 +104,13 @@
 .productdisplay-right-category span {
   font-weight: 600;
 }
+
+@media screen and (max-width: 600px) {
+  .productdisplay-main-img {
+    width: 200px;
+    height: 310px;
+  }
+  .productdisplay-left {
+    display: block;
+  }
+}

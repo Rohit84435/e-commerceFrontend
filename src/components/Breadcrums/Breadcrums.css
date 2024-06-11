@@ -11,3 +11,10 @@
   margin: 60px 170px;
   text-transform: capitalize;
 }
+
+@media screen and (max-width: 600) {
+  .breadcrums {
+    font-size: 3px;
+    /* margin: 0px; */
+  }
+}

@@ -107,3 +107,32 @@
   color: white;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .cartitems-down {
+    display: flex;
+    flex-direction: column;
+  }
+  .cartitems-promobox {
+    width: 200px;
+  }
+  .cartitems-promobox input {
+    width: 100px;
+  }
+  .cartitems-promobox button {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    /* margin: 40px; */
+  }
+  .cartitems-total button {
+    width: 150px;
+    height: 30px;
+    font-size: 8px;
+  }
+  .cartitems-format-main {
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

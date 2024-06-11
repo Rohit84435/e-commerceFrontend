@@ -60,3 +60,22 @@
   width: 300px;
   margin-top: 0px;
 }
+
+@media screen and (max-width: 600px) {
+  .offers-left h1 {
+    font-size: 20px;
+    margin-left: 0;
+    width: 40%;
+  }
+  .offers-left p {
+    font-size: 15px;
+  }
+  .offers-right img {
+    display: none;
+  }
+  .offers-left button {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+  }
+}

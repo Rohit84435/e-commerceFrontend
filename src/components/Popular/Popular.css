@@ -28,3 +28,17 @@
   display: flex;
   gap: 30px;
 }
+
+@media screen and (max-width: 600px) {
+  .popular {
+    margin-bottom: 100px;
+    height: 100%;
+  }
+  .popular h1 {
+    font-size: 25px;
+  }
+  .popular-item {
+    display: flex;
+    flex-direction: column;
+  }
+}

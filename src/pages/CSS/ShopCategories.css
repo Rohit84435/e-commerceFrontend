@@ -43,3 +43,14 @@
   font-weight: 500;
   cursor: pointer;
 }
+
+@media screen and (max-width: 455px) {
+  .shopcategory-indexSort {
+    margin: 0;
+  }
+  .shopcategory-products {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+}
