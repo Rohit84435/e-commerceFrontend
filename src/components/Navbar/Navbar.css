@@ -1,0 +1,104 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 7%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar.active {
+  background: #ffd301;
+}
+
+.left {
+  cursor: pointer;
+}
+.center {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  border-color: #f1f1f1;
+  border-radius: 10px;
+  color: #4d4d4d;
+  font-size: 1.125em;
+  height: 1.22em;
+  padding: 1.12em 1.33em;
+}
+
+.searchField {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  color: black;
+  font-size: 15px;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 6px;
+  background: transparent;
+}
+
+.center img {
+  cursor: pointer;
+}
+.right {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  /* justify-content: space-evenly; */
+}
+
+.right img {
+  margin-left: 15px;
+  height: 25px;
+  width: 23px;
+  cursor: pointer;
+}
+/* &:hover .right img {
+  transform: translateY(-1rem);
+} */
+.right p {
+  font-size: medium;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.right span {
+  display: flex;
+  align-items: center;
+}
+
+.navbar button {
+  width: 70px;
+  height: 35px;
+  margin-left: 55px;
+  outline: none;
+  border: 1px solid #7a7a7a;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+}
+
+.right button:hover {
+  background: #f3f3f3;
+}
+
+.nav-cart-count {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 11px;
+  font-size: 14px;
+  background: red;
+  color: white;
+}

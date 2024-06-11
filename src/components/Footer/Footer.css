@@ -1,0 +1,78 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  background: #fffefe;
+  /* height: 10vh; */
+  /* margin-bottom: 70px; */
+}
+
+.footleft {
+  margin-left: 7%;
+}
+
+.footright {
+  margin-right: 7%;
+}
+
+.footleft img {
+  width: 160px;
+  height: 30px;
+}
+
+.social {
+  margin-top: 50px;
+  /* margin-bottom: 10px; */
+}
+
+.social p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.1px;
+  margin-bottom: 5px;
+  color: rgb(76, 76, 76);
+}
+.social img {
+  background: #f3f2f2;
+  /* padding: ; */
+  margin: 0px 5px 0px 0px;
+  height: 20px;
+  width: 25px;
+}
+.app img {
+  width: 120px;
+  height: 70px;
+  /* margin-left: 5px; */
+}
+
+.app p {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(76, 76, 76);
+  /* margin-bottom: 2px; */
+}
+
+.footlast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  /* background: #fffefe; */
+}
+
+.footlast p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(76, 76, 76);
+}
+
+.footcon img {
+  width: 60px;
+  height: 27px;
+  margin-left: 20px;
+  cursor: pointer;
+}

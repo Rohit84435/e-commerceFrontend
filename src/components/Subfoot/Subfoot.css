@@ -1,0 +1,16 @@
+.subfoot {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.subfoot h2 {
+  color: #4d4c4d;
+  margin-bottom: 15px;
+}
+
+.subfoot p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.1px;
+  color: rgb(76, 76, 76);
+}
